@@ -87,6 +87,7 @@ kubeadm init --pod-network-cidr=10.244.0.0/16
 # Now paste the last two lines from the copied kebernetes initialized successfully
     # for eg: ( kubeadm join 172.31.33.65:6443 --token 20fjze.zh56x9rz19642gnf \
         --discovery-token-ca-cert-hash sha256:c0042131e8b157db29c95aada7678fcc61d4daa0363294695c54e58b7e6db6a0 )  this last two lines.
+
 # In master server
 
 # CNI (container network interface) to give network connection
