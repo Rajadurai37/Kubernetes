@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-app
+  name: # (my-app) app name
 spec:
   replicas: 1
   selector:
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: aravind46/html
+        image: # (Rajadurai/html-app) docker image url
         ports:
         - containerPort: 80
