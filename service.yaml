@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-app
+  name: # (my-app) change app name here like in deployment.yaml file
 spec:
   selector:
     app: my-app
